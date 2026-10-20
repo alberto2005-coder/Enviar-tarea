@@ -92,3 +92,105 @@ Si encuentras problemas o tienes preguntas, abre un [Issue](https://github.com/a
 ---
 
 **Última actualización:** Mayo 2026
+
+
+
+---
+
+# English Version
+
+# Enviar-tarea 📋
+
+A web system for managing tasks that stores the state of each task in a database.
+
+## Description
+
+**Enviar-tarea** is a web application developed with HTML, PHP and a database that lets users create, send and manage tasks in a centralized way. The system stores and updates the state of tasks in real time, making it easier to track and organize work.
+
+## Key Features
+
+✅ **Intuitive web interface** - Simple, easy-to-use design
+✅ **Task management** - Create, edit and delete tasks
+✅ **Database storage** - Data persistence in the database
+✅ **Status tracking** - Real-time task status updates
+✅ **PHP backend** - Robust and secure server-side logic
+
+## Technologies Used
+
+- **HTML5** - Website structure
+- **PHP** - Backend and server-side logic
+- **Database** - Information storage
+- **CSS** - Styles and presentation (embedded in HTML)
+
+## Project Structure
+
+```
+Enviar-tarea/
+├── proyecto/          # Main application files
+├── basededatos/       # Database configuration and scripts
+├── .gitignore        # Files ignored by Git
+└── LICENSE           # MIT License
+```
+
+## Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/alberto2005-coder/Enviar-tarea.git
+   cd Enviar-tarea
+   ```
+
+2. **Set up the web server**
+   - Make sure you have PHP installed (version 7.4 or higher)
+   - Copy the files to your web server (Apache/Nginx)
+
+3. **Set up the database**
+   - Import the SQL scripts from the `basededatos/` folder
+   - Update the connection credentials in the PHP configuration
+
+4. **Access the application**
+   - Open your browser and go to `http://localhost/Enviar-tarea/proyecto/`
+
+## Usage
+
+1. Access the application from your browser
+2. Create a new task with the form
+3. Fill in the task details
+4. Submit the task to store it in the database
+5. View and manage the status of your tasks from the dashboard
+
+## Requirements
+
+- PHP 7.4+
+- Web server (Apache/Nginx)
+- Database (MySQL/MariaDB)
+- Modern web browser
+
+## License
+
+This project is under the [MIT](LICENSE) license. You may use, modify and distribute this code freely.
+
+## Author
+
+👤 **alberto2005-coder**
+
+- GitHub: [@alberto2005-coder](https://github.com/alberto2005-coder)
+
+## Contributing
+
+Contributions are welcome. To contribute:
+
+1. Fork the project
+2. Create a branch for your feature (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Open a Pull Request
+
+## Support
+
+If you run into problems or have questions, open an [Issue](https://github.com/alberto2005-coder/Enviar-tarea/issues) in the repository.
+
+---
+
+**Last updated:** May 2026
+
